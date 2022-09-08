@@ -1,0 +1,357 @@
+        
+  body {
+    font-family: 'Mukta', sans-serif;
+    
+  }
+        
+        
+        /* Section Home */
+
+.home {
+  background-color:  #c6c6ec;
+}
+
+/* Navbar */
+
+.hamburguer {
+  background-color: white;
+  margin-left: 30px;
+}
+a.nav-link {
+    color:white;
+}
+
+a.nav-link:hover {
+color: #cc3300;
+}
+
+.navbar-nav {
+    margin-left: 30px;
+}
+
+.container-title {
+  background-color: black;
+}
+/* Headings */
+
+.heading  {
+    margin: 50px;
+    font-family: 'Silkscreen', cursive;
+}
+
+.heading-one{
+    font-size: 40px;
+    color: black;
+  }
+.heading-two{
+    color: black;
+    font-size: 65px;
+    font-weight: 600;
+    
+  }
+.heading-three{
+    font-size: 40px;
+    color: black;
+  }
+.heading-four{
+    font-size: 30px;
+    color: black;
+    font-family: 'Mukta', sans-serif;
+  }
+.button{
+    margin: 5% 3% 5% 0;
+    background-color:#cc3300;
+    color: white;
+    border: 2px solid black;
+    
+  }
+.button-linkedIn:hover{
+    border-color: hsl(0, 3%, 33%);
+    background-color: #0A66C2;
+    color: white;
+  }
+
+.button-gitHub:hover{
+    border-color: hsl(0, 3%, 33%);
+    background-color: black;
+    color: white;
+  }
+
+  .fab-icon {
+    font-family: 'Mukta', sans-serif;
+  }
+
+ .me-foto {
+    width: 100%;
+    position: relative;
+    
+ }
+
+ .me-foto:hover {
+  background-color: #cc3300;
+ }
+
+
+            
+            /* Main */
+
+            /* Article About Me */
+.aboutMe  {
+    background-color: white;
+    color: black;
+    margin: 30px 15px 60px 30px;
+    
+}
+
+.text-one {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: bold;
+  
+}
+
+.text-two {
+  margin: 20px 0 20px 0px;
+}
+
+.text-three {
+  margin: 20px 0 20px 0px;
+}
+
+.text-four {
+  margin-top: 30px;
+}
+
+
+.foto-aboutme {
+  width: 30%;
+  height: 20%;
+  border-radius: 10%;
+  margin-top: 100px;
+  margin-bottom: 70px;
+   
+}
+ 
+
+       /* Article Projects */
+
+.projects {
+  width: 100%;
+  background-color: #c6c6ec;
+  display: inline-block;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.article-title {
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 50px;
+}
+
+
+.carousel-style {
+  display: block;
+  position: relative;
+  align-content: center;
+  align-items: center;
+
+  
+  
+
+}
+
+
+
+.carousel-inner > .item {
+  position: relative;
+  max-height: 600px;
+}
+.carousel-caption {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 80%;
+  transform: translateY(-50%);
+}
+
+
+
+.img-style {
+  width: 200px;
+  height: 400px;
+  position: relative;
+  filter: brightness(80%);
+
+}
+
+.img-style:hover {
+  opacity: 0.5;
+}
+
+
+
+            /* Article Skills */
+
+.skills {
+background-color: white;
+display: block;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+margin-left: 150px;
+
+}
+
+.skills-icons {
+width: 600px;
+height: 200px;
+margin-top: 70px;
+
+
+
+
+}
+
+.skills-wordpressIcon {
+  width: 180px;
+  height: 180px;
+  margin-top: 70px;
+  margin-right: 50px;
+  margin-left: 100px;
+ 
+}
+
+.skills-bootstrap {
+  width: 160px;
+  height: 160px;
+  margin-top: 70px;
+  margin-right: 20px;
+}
+
+
+.skills-gitHub {
+  width: 230px;
+  height: 230px;
+  margin-top: 70px;
+  margin-right: 50px;
+  
+
+}
+
+.skills-certificates {
+display: flex;
+justify-content:center;
+align-items: center;
+margin-top: 100px;
+margin-bottom: 100px;
+
+}
+
+
+.skills-certificates1 {
+  width: 500px;
+  height: 370px;
+  margin-right: 40px;
+ 
+}
+   
+.skills-certificates2 {
+  width: 500px;
+  height: 700px;
+  
+}
+            /* Section Footer */
+
+footer {
+background-color:#c6c6ec;
+padding: 15px 0;
+text-align: center;
+text-decoration: none;
+}
+
+
+/* Responsive Media Query */
+
+@media (max-width: 992px) {
+ 
+  
+  
+.me-foto {
+width: 80%;
+position: static;
+}
+
+.img-style {
+  width: 100%;
+}
+
+.aboutMe{
+  font-size:150%;
+}
+
+.foto-aboutme {
+  width: 50%;
+  height: 40%;
+}
+ 
+
+.carousel-item {
+    width: 100%;
+    height: 40%;
+    margin-bottom: 50px;
+    
+    
+}
+
+
+.skills-icons {
+    width: 400px;
+    height: 100px;
+    margin-left: 30px;
+}
+  
+
+.skills-bootstrap {
+  width: 90px;
+  height: 90px;
+}
+
+
+.skills-gitHub {
+  width: 120px;
+  height: 120px;
+
+}
+
+
+
+.skills-wordpressIcon {
+    width: 100px;
+    height: 100px;
+      
+}
+
+.skills-certificates {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+}
+  
+.skills-certificates1 .skills-certificates2 {
+    width: 100%;
+    height: 100%;
+    margin-left: 30px;
+}
+
+
+  
+  
+
+
+}
